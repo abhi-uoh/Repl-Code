@@ -1,17 +1,11 @@
-class GFG
-{    
-   public static void main(String args[])
-   {  
-     
-    for (int k=0; k<20; k=k+2)
-    {
-
-      if (k % 3 == 1)
-
-          System.out.print(k+ " ");
-          System.out.print("Hello");
-        System.out.println("Geeks!");
-    }
-
-    }    
+class GFG{ 
+	public static void main(String args[]){
+		int []A=new int[8];
+		int i=0;
+		for(i=-1;i<A.length-1;){
+			A[++i]=i;
+		}
+		String res=""+A[2]+(4%2)+(5%2)+i;
+		System.out.print(res);
+	}
 }
