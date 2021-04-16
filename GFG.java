@@ -7,5 +7,6 @@ class GFG{
 		}
 		String res=""+A[2]+(4%2)+(5%2)+i;
 		System.out.print(res);
+		Sysem.our.print(" ______________________________________");
 	}
 }
